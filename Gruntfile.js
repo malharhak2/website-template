@@ -32,9 +32,13 @@ module.exports = function (grunt) {
 			options: {
 				livereload: true
 			},
-			js: {
-				files: ['js/**/*.js'],
-				tasks: ['jshint']
+			client: {
+				files: ['public/js/**/*.js'],
+				tasks: ['jshint:client']
+			},
+			server: {
+				files: ['server/**/*.js'],
+				tasks: ['jshint:server']
 			}
 		}
 	});
