@@ -15,7 +15,7 @@ This is a basic website template for starting new websites with the following th
 You need a few things installed on your dev computer in order to develop:
 
 * [`node.js`](http://nodejs.org/) obviously
-* [`sass`](http://sass-lang.com/) which is used to compile SCSS to CSS (and to use the [`bourbon`](http://bourbon.io/) library
+* [`sass`](http://sass-lang.com/) which is used to compile SCSS to CSS (and to use the [`bourbon`](http://bourbon.io/) library)
 * [`grunt-cli`](https://www.npmjs.org/package/grunt-cli) on your dev computer for running grunt
 * [`bower`](http://bower.io/) for downloading client-side libraries
 
@@ -35,4 +35,4 @@ Then you can launch the node server
 
 `node app.js`
 
-Ans the rest is up to you.
+And the rest is up to you.
